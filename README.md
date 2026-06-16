@@ -20,11 +20,6 @@ A fully serverless URL shortener service (like bit.ly) built on AWS. No EC2 inst
 | S3 + CloudFront | Static frontend (optional) |
 | IAM | Permissions between services |
 
-## Architecture Diagram
-
-> 📸 **[Screenshot 1: Serverless architecture diagram here]**
-> *Shows: User → API Gateway → Lambda → DynamoDB flow, plus redirect flow.*
-
 ## How It Works
 
 1. User submits a long URL via POST request
